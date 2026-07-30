@@ -1,0 +1,109 @@
+# ============================
+# CARPETAS DE VISUAL STUDIO
+# ============================
+.vs/
+.idea/
+.vscode/
+
+# ============================
+# CARPETAS DE COMPILACIÓN
+# ============================
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/publish/
+
+# ============================
+# ARCHIVOS DE CONFIGURACIÓN SENSIBLE (NO SUBIR)
+# ============================
+appsettings.json
+appsettings.*.json
+*.Development.json
+*.Production.json
+*.Local.json
+*.Staging.json
+.env
+*.env
+secrets.json
+user.secrets.json
+
+# ============================
+# ARCHIVOS DE LOGS (NO SUBIR)
+# ============================
+**/internal_logs/
+**/logs/
+*.log
+*.txt
+log.txt
+internallog.txt
+
+# ============================
+# CARPETAS DE DOCUMENTOS (NO SUBIR LOS ARCHIVOS)
+# ============================
+
+# wwwroot/archivos/ - SUBIR CARPETA, NO LOS ARCHIVOS
+**/wwwroot/archivos/*
+!**/wwwroot/archivos/.gitkeep
+
+# wwwroot/uploads/ - NO SUBIR NADA
+**/wwwroot/uploads/*
+!**/wwwroot/uploads/.gitkeep
+
+# ============================
+# ARCHIVOS DE BASES DE DATOS
+# ============================
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================
+# ARCHIVOS COMPILADOS
+# ============================
+*.dll
+*.exe
+*.pdb
+*.cache
+*.nupkg
+
+# ============================
+# ARCHIVOS TEMPORALES
+# ============================
+tmp/
+temp/
+*.tmp
+*.temp
+~$*
+*.bak
+*.old
+*.orig
+
+# ============================
+# ARCHIVOS DEL SISTEMA OPERATIVO
+# ============================
+Thumbs.db
+desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+.directory
+.Trash-*
+
+# ============================
+# ARCHIVOS COMPRIMIDOS (NO SUBIR)
+# ============================
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.gz
+
+# ============================
+# ARCHIVOS DE NLOG (NO SUBIR)
+# ============================
+**/nlog.development.config
+**/nlog.production.config
+**/nlog-*.log

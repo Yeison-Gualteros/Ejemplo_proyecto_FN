@@ -1,0 +1,6 @@
+@FileNova_HostAddress = http://localhost:5251
+
+GET {{FileNova_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
